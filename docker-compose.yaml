@@ -25,8 +25,8 @@ services:
       - WORDPRESS_DATABASE_NAME=bitnami_wordpress
       - WORDPRESS_DATABASE_USER=bn_wordpress
       - WORDPRESS_DATABASE_PASSWORD=my_db_password
-      - WORDPRESS_USERNAME=admin               
-      - WORDPRESS_PASSWORD=secure_admin_pass   
+      - WORDPRESS_USERNAME=admin357L               
+      - WORDPRESS_PASSWORD=secure_admin_pass3D-password   
       - WORDPRESS_EMAIL=admin@example.com      
       - ALLOW_EMPTY_PASSWORD=no
     volumes:
