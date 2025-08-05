@@ -25,6 +25,10 @@ git clone git@github.com:HerzogElias/Wordpress_Docker.git
 ```bash
 cd /Wordpress_Docker
 ```
+3. Copy your env File: 
+```bash
+cp example.env env 
+```
 
 3. Run your Docker Image with Docker Compose: 
 ```bash
@@ -46,7 +50,19 @@ docker compose up --build
 2. Login to the Admin Panel. 
 In your Docker Compose File you can find Login Data: 
 ```bash
-      - WORDPRESS_USERNAME=admin357L               
-      - WORDPRESS_PASSWORD=secure_admin_pass3D-password   
-      - WORDPRESS_EMAIL=admin@example.com    
+      - WORDPRESS_USERNAME              
+      - WORDPRESS_PASSWORD
+      - WORDPRESS_EMAIL
+```
+
+### Stop-Container: 
+You can stop the container with the following Command: 
+```bash
+docker compose down 
+```
+
+### Start Container in Detach Mode: 
+To Start the Container in Detach Mode use this following Command: 
+```bash
+docker-compose up -d
 ```
