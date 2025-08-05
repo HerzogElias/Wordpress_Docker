@@ -12,8 +12,8 @@
 This is a Reademe Description of a Docker based Wordpress Website. 
 
 ## Prerequisites 
-Docker 
-Docker Compose 
+-Docker 
+-Docker Compose 
 
 ## Quickstart 
 1. Clone the following Github Repository: 

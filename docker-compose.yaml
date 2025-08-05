@@ -1,6 +1,6 @@
 services:
   db:
-    image: bitnami/mariadb:latest
+    image: bitnami/mariadb:11.8.2-debian-12-r4
     container_name: db
     environment:
       - MARIADB_ROOT_PASSWORD=my_root_password
@@ -12,7 +12,7 @@ services:
     restart: always
 
   wordpress:
-    image: bitnami/wordpress:latest
+    image: bitnami/wordpress:6.8.2-debian-12-r2
     container_name: wordpress
     depends_on:
       - db
